@@ -1,0 +1,38 @@
+.cart-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+
+.cart-item {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.cart-item-image img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.item-count {
+    background-color: #ccc;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    margin: 0;
+}
+
+.cart-item-details {
+    flex-grow: 1;
+}
+
+.total-price {
+    margin-top: 20px;
+    text-align: right;
+}

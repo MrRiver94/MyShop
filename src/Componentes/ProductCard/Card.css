@@ -1,0 +1,75 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  width: 300px; /* ajusta el ancho según tus necesidades */
+  margin: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* sombreado */
+}
+
+.card-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-image {
+  flex: 1; /* Ajusta la imagen para ocupar todo el espacio disponible */
+  overflow: hidden; /* Para evitar que la imagen se desborde del contenedor */
+}
+
+.card-image img {
+  width: 200px; /* Hace que la imagen ocupe todo el ancho del contenedor */
+  height: auto; /* Para mantener la proporción de la imagen */
+}
+
+.card-header-info {
+  padding: 10px;
+}
+
+.card-title {
+  font-size: 18px;
+  margin: 0;
+}
+
+.card-category {
+  color: #888;
+  margin: 5px 0;
+}
+
+.card-description {
+  padding: 10px;
+}
+
+.card-price {
+  font-size: 16px;
+  color: #333;
+  margin: 0;
+}
+
+.card-rating {
+  display: flex;
+  justify-content: space-between;
+  color: #888;
+  font-size: 14px;
+}
+
+.agregar-producto {
+  text-align: center; /* Centrar el contenido del div horizontalmente */
+}
+
+.boton-agregar {
+  background-color: #0f2210; 
+  width: 200px;
+  border: none; 
+  color: white; 
+  padding: 10px 20px; 
+  text-align: center; 
+  text-decoration: none; 
+  display: inline-block; 
+  font-size: 16px; 
+  margin: 4px 2px; 
+  cursor: pointer; 
+  border-radius: 5px; 
+}

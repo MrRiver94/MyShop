@@ -1,0 +1,48 @@
+.Card-list {
+  margin: 5px;
+  padding-top: 150px;
+  display: flex;
+  border: 1px solid #ccc; /* Añadir un borde de 1px sólido gris */
+  background-color: #f0eeda; /* Establecer el color de fondo como crema */
+  
+
+}
+
+
+/* Estilos para el encabezado (header) */
+.header {
+ display: block;
+ position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  
+  z-index: 1000; /* Asegura que el encabezado esté sobre otros elementos */
+}
+
+/* Estilos para el banner */
+.banner {
+  display: block;
+  position: absolute;
+ padding-top: 15px;
+  top: 60px; /* Ajusta según la altura de tu encabezado */
+  left: 0;
+  width: 100%;
+  background-color: #f0f0f0; /* Puedes ajustar el color de fondo según tu diseño */
+  padding: 10px;
+  z-index: 999; /* Asegura que el banner esté sobre otros elementos */
+}
+
+/* Estilos para el pie de página (footer) */
+.footer {
+ 
+  display: block;
+  position: relative;
+    
+  bottom: 10px;
+ 
+  max-width: 100% ;
+  background-color: #333; /* Puedes ajustar el color de fondo según tu diseño */
+  padding: 10px;
+  
+}
